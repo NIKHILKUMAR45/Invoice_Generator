@@ -1,0 +1,142 @@
+.App{
+  height: 100vh; /* set a fixed height for the element */
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap:20px;
+  
+  width:100%;
+
+   overflow: auto; 
+}
+
+.invoiceWrapper{
+  background-color: white;
+  /* add any other styles you need */
+  margin-bottom: 400px;
+  margin-top: 20px;
+
+}
+
+.formWrapper{
+  max-width: 500px !important;
+  display: flex;
+  flex-direction: column;
+  /* add any styles you need */
+}
+.buttonWrapper{
+  display:flex;
+  gap:15px
+
+}
+.buttonWrapper>button:nth-child(1){
+  padding:14px;
+  border-radius: 5px;
+  border:none;
+  background-color:#ffc000;
+ 
+  font-weight:600
+
+  /* margin: auto; */
+}
+.buttonWrapper>button:nth-child(2){
+  padding:14px;
+  border-radius: 5px;
+  border:none;
+  background-color:#c4e0b2;
+ 
+  font-weight:600;
+  
+
+  /* margin: auto; */
+}
+ 
+ 
+.topContainer{
+  display:flex;
+  flex-direction:column;
+  gap:10px
+
+}
+ .topContainer>div{
+  display:flex;
+  justify-content:space-between;
+  gap:30px;
+ }
+
+  .table {
+  border: 1px solid #ccc;
+}
+
+.table thead tr {
+  font-weight: bold;
+}
+
+.table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.table th,
+.table td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+.productTableWrap th{
+  background-color: #45aef3 !important;
+}
+.select,
+.input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.input {
+  width: 60px;
+}
+
+.button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #d32f2f;
+}
+
+.table td,
+.table th {
+  padding: 8px;
+}
+.remove{
+  border:none;
+  border-radius:5px;
+  background-color: red;
+  color:white;
+  padding:14px;
+
+
+}
+
+.productTableWrap{
+  
+  max-width: 1000px;
+   
+}
+
+@media only screen and (max-width: 767px) {
+  /* CSS rules here */
+.productTableWrap{
+  
+  width: 100%;
+   
+}
+ 
+}
