@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Invoice_Generator/static/css/main.7121bccd.css",
+    "main.js": "/Invoice_Generator/static/js/main.8a4a4e56.js",
+    "static/js/703.3ca68b6c.chunk.js": "/Invoice_Generator/static/js/703.3ca68b6c.chunk.js",
+    "static/js/573.13926fd0.chunk.js": "/Invoice_Generator/static/js/573.13926fd0.chunk.js",
+    "static/js/787.e3404ddb.chunk.js": "/Invoice_Generator/static/js/787.e3404ddb.chunk.js",
+    "index.html": "/Invoice_Generator/index.html",
+    "static/media/pd.csv": "/Invoice_Generator/static/media/pd.85712f6735178f0f6e3b.csv",
+    "main.7121bccd.css.map": "/Invoice_Generator/static/css/main.7121bccd.css.map",
+    "main.8a4a4e56.js.map": "/Invoice_Generator/static/js/main.8a4a4e56.js.map",
+    "703.3ca68b6c.chunk.js.map": "/Invoice_Generator/static/js/703.3ca68b6c.chunk.js.map",
+    "573.13926fd0.chunk.js.map": "/Invoice_Generator/static/js/573.13926fd0.chunk.js.map",
+    "787.e3404ddb.chunk.js.map": "/Invoice_Generator/static/js/787.e3404ddb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7121bccd.css",
+    "static/js/main.8a4a4e56.js"
+  ]
+}
